@@ -1,0 +1,7 @@
+data/
+recipe_book.pdf
+.git/
+__pycache__/
+.ipynb_checkpoints/
+*.csv
+*.pdf
