@@ -1,5 +1,5 @@
 import streamlit as st
-import tensorflow as tf
+from keras.models import load_model
 import numpy as np
 from PIL import Image
 
@@ -91,9 +91,9 @@ nutrition={
 
 def load():
 
-    return tf.keras.models.load_model(
+  return load_model(
     "models/food_model.keras"
-    )
+)
 
 model=load()
 
